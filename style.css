@@ -20,3 +20,29 @@ header .container {
 header .logo{
     font-size: 24px; 
 }
+
+.section1 {
+    background-image: url(https://gohan-desu.github.io/icpcyuhifes.github.io/images/AdobeStock_352006175.jpeg);
+    background-position:center bottom;
+    background-size: cover;
+    height: 100vh;
+    display: flex; 
+    align-items: center;
+}
+.section1 .container{
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+}
+.section1 h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.section1 .text{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
